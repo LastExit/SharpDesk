@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDesk.Tests", "SharpDesk.Tests\SharpDesk.Tests.csproj", "{A9CC6A59-C8B6-4C79-8B20-FD0987ADB5DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDesk.Model", "SharpDesk.Model\SharpDesk.Model.csproj", "{A4FE3AC3-06E7-47A2-A001-D8B85A74A062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDesk.Services", "SharpDesk.Services\SharpDesk.Services.csproj", "{4AEAE26E-4E15-461C-8C97-98CA4EF56115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDesk.Repository.HttpXml", "SharpDesk.Repository.HttpXml\SharpDesk.Repository.HttpXml.csproj", "{BB33AE6C-090B-4F46-B35A-F3B0C5DBC308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDesk.Infrastructure", "SharpDesk.Infrastructure\SharpDesk.Infrastructure.csproj", "{9B2AF7A6-491C-41E0-9E16-89524E10596C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDesk.Repository.Json", "SharpDesk.Repository.Json\SharpDesk.Repository.Json.csproj", "{245548AC-41AC-40F0-AEFF-FFEA89302B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharpDesk.Repository", "SharpDesk.Repository", "{376277AB-436B-4ABA-AB2A-0FA83A7E6083}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharpDesk.Testing", "SharpDesk.Testing", "{947788E0-8236-4199-B818-CAF815BA206F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9CC6A59-C8B6-4C79-8B20-FD0987ADB5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CC6A59-C8B6-4C79-8B20-FD0987ADB5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CC6A59-C8B6-4C79-8B20-FD0987ADB5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CC6A59-C8B6-4C79-8B20-FD0987ADB5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FE3AC3-06E7-47A2-A001-D8B85A74A062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FE3AC3-06E7-47A2-A001-D8B85A74A062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FE3AC3-06E7-47A2-A001-D8B85A74A062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FE3AC3-06E7-47A2-A001-D8B85A74A062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEAE26E-4E15-461C-8C97-98CA4EF56115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEAE26E-4E15-461C-8C97-98CA4EF56115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEAE26E-4E15-461C-8C97-98CA4EF56115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEAE26E-4E15-461C-8C97-98CA4EF56115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB33AE6C-090B-4F46-B35A-F3B0C5DBC308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB33AE6C-090B-4F46-B35A-F3B0C5DBC308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB33AE6C-090B-4F46-B35A-F3B0C5DBC308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB33AE6C-090B-4F46-B35A-F3B0C5DBC308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2AF7A6-491C-41E0-9E16-89524E10596C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2AF7A6-491C-41E0-9E16-89524E10596C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2AF7A6-491C-41E0-9E16-89524E10596C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2AF7A6-491C-41E0-9E16-89524E10596C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245548AC-41AC-40F0-AEFF-FFEA89302B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245548AC-41AC-40F0-AEFF-FFEA89302B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245548AC-41AC-40F0-AEFF-FFEA89302B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245548AC-41AC-40F0-AEFF-FFEA89302B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9CC6A59-C8B6-4C79-8B20-FD0987ADB5DC} = {947788E0-8236-4199-B818-CAF815BA206F}
+		{245548AC-41AC-40F0-AEFF-FFEA89302B10} = {376277AB-436B-4ABA-AB2A-0FA83A7E6083}
+		{BB33AE6C-090B-4F46-B35A-F3B0C5DBC308} = {376277AB-436B-4ABA-AB2A-0FA83A7E6083}
+	EndGlobalSection
+EndGlobal
